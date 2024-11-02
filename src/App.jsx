@@ -30,7 +30,7 @@ function App() {
           <Link to='/aboutus'>AboutUs</Link>
           <Link to='/contactus'>ContactUs</Link>
           <GoogleOAuthProvider clientId="938065162934-it81qcqs2gtqgi99ajii7f96lvh65m72.apps.googleusercontent.com">
-      {/* Other components */}
+      //Other components 
       <GoogleLoginComponent />
     </GoogleOAuthProvider>
     <FaceBookLoginComponent />

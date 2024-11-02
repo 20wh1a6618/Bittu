@@ -1,7 +1,7 @@
 // GitHubLoginComponent.jsx
 import React, { useState } from 'react';
 
-const GitHubLoginComponent = () => {
+function GitHubLoginComponent(){
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [userName, setUserName] = useState('');
     const clientId = 'Ov23liVslqCzBzsEcQai'; // Replace with your GitHub Client ID

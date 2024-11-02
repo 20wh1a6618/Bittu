@@ -1,7 +1,7 @@
 // FacebookLoginComponent.jsx
 import React, { useState } from 'react';
 
-const FacebookLoginComponent = () => {
+function FacebookLoginComponent(){
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [userName, setUserName] = useState('');
 
